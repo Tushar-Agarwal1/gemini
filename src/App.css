@@ -15,7 +15,7 @@
     text-align: center
 }
 
-input{
+input[type="text"]{
     background-color:white;
     color:black;
 }
