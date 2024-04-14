@@ -18,7 +18,7 @@ export default function App() {
       return;
     }
     setMsgList(prevMsgList => [...prevMsgList, {msg,recived:false}]);
-    const response = await fetch('http://localhost:8000/suitabilityAssesment', {
+    const response = await fetch('https://gemini-backend-38mc.onrender.com/suitabilityAssesment', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
